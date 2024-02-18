@@ -1,0 +1,204 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-weight: bold;
+} */
+/* body{ */
+    /* box-sizing: border-box; */
+    /* animation: myfirst 15s ease-in infinite alternate; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    /* background-color: rgba(15, 15, 15, 0.685); */
+/* } */
+/* header{
+    background-color: rgba(0, 0, 255, 0.199);
+    height: 49vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+/* #i{
+    background-color: rgba(0, 255, 255, 0.555);
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+/* @keyframes myfirst {
+  0% {
+    background-color: rgb(156, 92, 92);
+  }
+  25% {
+    background-color: rgb(124, 124, 69);
+  }
+  50% {
+    background-color: rgb(82, 82, 126);
+  }
+  75% {
+    background-color: rgb(68, 112, 68);
+  }
+  90% {
+    background-color: rgb(129, 79, 136);
+  }
+  100% {
+    background-color: rgb(121, 78, 78);
+  }
+} */
+
+/* #box{
+    background-color: rgba(0, 217, 255, 0.205);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5%;
+    width: 97vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+/* .card1{
+    background-color: rgba(0, 0, 0, 0.562);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.5%;
+    font-size: inherit;
+    width: 90%;
+    height: 28%;
+}  */
+
+/* .shift{
+    height: 20%;
+    width: 96%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 96%;
+    font-weight: bolder;
+} */
+
+/* .shifted{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 89%;
+    height: 65%;
+    width: 93%;
+} */
+
+/* .card2{
+  background-color: rgba(26, 19, 19, 0.911);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 49%;
+  height: 29%;
+  border-radius: 5.5%;
+} */
+
+/* .top{
+  font-size: 120%;
+  height: 25%;
+  width: 93%;
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  height: 65%;
+  width: 87%;
+  font-size: 89%;
+}
+
+.card3{
+  background-color: rgba(129, 168, 69, 0.836);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40%;
+  width: 61%;
+  border-radius: 3%;
+} */
+/* 
+.shifted1{
+  height: 78%;
+  width: 85%;
+}
+#region{
+  height: 50%;
+} */
+
+/* Animation Handler */
+
+.animation{
+  background-color: lightblue;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.animation.pop-up{
+  background-color: #2222;
+}
+/* Animations Here */
+#imageAnimation{
+  width: 20%;
+  border: black 5px solid;
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  height: 20%;
+  /* Animations contains animation(name,duration,fill-mode,iteration-count,timing-function ,delay)*/
+  animation: move 2s linear infinite both;
+  animation-direction: alternate;
+  /* Summary */
+  /* transform: rotateY(69deg) scale(3) translateX(60px) translateY(-70px); */
+  /* Transforms : transforms an element based on positions of the element */
+  /* traslate moves things along the X-axis and along the Y-axis, rotate x and y rotates values along either towards the x or the y and z for clockwise motion , scales increases the sizes by the given value*/
+}
+
+@keyframes move{
+  from{
+    transform: translateX(50px) rotateZ(70deg);
+  }
+  to{
+    transform: translateX(450px) rotateZ(360deg);
+  }
+}
+
+.Animate{
+  background-color: pink;
+  border: none;
+  width: 25%;
+  height: 30%;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  border-radius: 45%;
+  transition: transform 1s 1s ease-in-out;
+  transition-property: background-color;
+}
+
+.Animate:hover{
+  background-color: salmon;
+  transform: rotateY(360deg);
+}

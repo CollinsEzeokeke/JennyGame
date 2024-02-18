@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Jenny</title>
+</head>
+<body>
+    <header>
+        <div id="i">
+            <h1>Jenny's game </h1>
+        </div>
+    </header>
+    <div id="box">
+        <div class="card1">
+            <div class="shift">
+                <h2>Who am I</h2>
+            </div>
+            <div class="shifted">
+                <p>
+                    I get asked the same question everyday who are you? what is your country and how did you come up with such a beautiful and splendid game.Well seek no more!! because i have all answers your ready.I think it is proper i begin with a brief basic intro of myself. 
+                </p>
+            </div>
+        </div>
+        <div class="card2">
+            <h3 class="top">Introduction</h3>
+            <p class="content">
+                My name is Jennifer Ezeokeke but you can call me Jenny. I am a Nigerian and I made up a game that I hope all of you would love to play. It's very interesting and loaded with packs of fun. 
+            </p>
+        </div>
+        <div class="card3">
+            <div class="shift">
+                <h4>Rules of the game :</h4>
+            </div>
+            <div class="shifted1">
+                <ol>
+                    <li>Full honesty required.</li>
+                    <li>A player picks a number and his opponent get asked a random question and vice versa.</li>
+                    <li>Anyone who fails to answer any of the question would have some punishments to bear.</li>
+                    <li>There are a range of numbers 1 - 250 as the maximum</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    
+    <br><br><br><br><br><br>
+
+    <div>
+        <div id="region"></div>
+        <br>
+        <div style="height: 20vh;display: flex;align-items: center;justify-content: space-around;width: 95vw;">
+            <input type="text"id="selector"placeholder="Pick a number 1 - 251 " style="color: black;height: 30%;width: 40%;">
+            <input type="submit"value="submit" onclick="show()"style="color: black;height: 30%;width: 20%;">
+            <input type="submit" onclick="erase()"value="Erase data"style="color: black;height: 30%;width: 20%;">
+            <input type="submit" onclick="paradox()"value="Add name"style="color: black;height: 30%;width: 20%;">
+        </div>
+        <br><br><br><br><br><br>
+    </div>
+    <div>
+        <h2>Learning CSS Animations</h2>
+    </div>
+        <div class="animation">
+            <img id="imageAnimation"src="./images (1).jpeg" alt="Go and buy data">
+            <input type="submit" value="I am inimated" class="Animate">
+        </div>
+    <script src="./game.js"></script>
+</body>
+</html>
